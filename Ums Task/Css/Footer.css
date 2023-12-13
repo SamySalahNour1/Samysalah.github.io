@@ -1,0 +1,65 @@
+footer{
+  background-color: #222831;
+  color: #ffffff;
+  padding: 75px 0 70px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+footer .Parent{
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+footer .Parent .Info{
+  width: calc(1100px/3);
+}
+footer .Parent .Info h4{
+  display: block;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+footer .Parent .Info .Links{
+  display: flex;
+  flex-direction: column;
+}
+footer .Parent .Info .Links button{
+  background-color: transparent;
+  color: #ffffff;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 16px;
+}
+footer .Parent .Info .Links button i{
+  margin-right: 5px;
+}
+footer .Parent .Info .Links button:hover,
+footer .Parent .Info .social button:hover{
+  color: #ffbe33;
+}
+footer .Parent .Info .social{
+  margin-top: 20px;
+}
+footer .Parent .Info .social button{
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+footer .Parent .Info p{
+  margin-bottom: 20px;
+}
+.CopyRight{
+  width: 90%;
+  position: absolute;
+  bottom: -45px;
+}
